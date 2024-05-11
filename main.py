@@ -24,7 +24,6 @@ for tag, details in tags.items():
     # skip if description contains the word Dex
     if 'Dex' in description:
         print('Skipping entry with description containing Dex')
-        print(details)
         continue
 
     entry = {
