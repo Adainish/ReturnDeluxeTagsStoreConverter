@@ -1,9 +1,9 @@
-import yaml
-
 """"
-This python script is used to generate entries for each ptag in the config.yml file 
+This python script is used to generate entries for each ptag in the config.yml file
 and adds them to the shop.yaml file to save time and work
 """
+import yaml
+
 # Load the config.yml file
 with open('files/config.yml', 'r', encoding='utf-8') as file:
     config_data = yaml.safe_load(file)
