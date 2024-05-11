@@ -5,7 +5,7 @@ This python script is used to generate entries for each ptag in the config.yml f
 and adds them to the shop.yaml file to save time and work
 """
 # Load the config.yml file
-with open('files/config.yml', 'r') as file:
+with open('files/config.yml', 'r', encoding='utf-8') as file:
     config_data = yaml.safe_load(file)
 
 # Load the shop.yaml file
@@ -18,11 +18,12 @@ tags = config_data['deluxetags']
 # Generate entries for each ptag and add them to the shop.yaml file
 for tag, details in tags.items():
     # Generate the entry
-    print(details["permission"])
+    print('Processing entry for tag:', tag)
     permission = details["permission"]
     description = details["description"]
-    #skip if description contains the word Dex
+    # skip if description contains the word Dex
     if 'Dex' in description:
+        print('Skipping entry with description containing Dex')
         print(details)
         continue
 
