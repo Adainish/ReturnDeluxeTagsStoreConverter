@@ -1,0 +1,1394 @@
+ShopCategories:
+  BoosterPacks:
+    EnabledItems:
+    - gen1pack
+    - gen1pack2
+    - gen1pack3
+    - gen1pack5
+    - gen1pack10
+    - gen2pack
+    - gen2pack2
+    - gen2pack3
+    - gen2pack5
+    - gen2pack10
+    - gen3pack
+    - gen3pack2
+    - gen3pack3
+    - gen3pack5
+    - gen3pack10
+    - gen4pack
+    - gen4pack2
+    - gen4pack3
+    - gen4pack5
+    - gen4pack10
+    - gen5pack
+    - gen5pack2
+    - gen5pack3
+    - gen5pack5
+    - gen5pack10
+    - gen6pack
+    - gen6pack2
+    - gen6pack3
+    - gen6pack5
+    - gen6pack10
+    - gen7pack
+    - gen7pack2
+    - gen7pack3
+    - gen7pack5
+    - gen7pack10
+    - gen8pack
+    - gen8pack2
+    - gen8pack3
+    - gen8pack5
+    - gen8pack10
+    - gen9pack
+    - gen9pack2
+    - gen9pack3
+    - gen9pack5
+    - gen9pack10
+    ItemDisplay: '&d&lBooster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&eBuy Booster Packs here!'
+  Boosters:
+    EnabledItems:
+    - habooster5
+    - habooster10
+    - habooster20
+    - habooster40
+    - habooster60
+    - shinybooster5
+    - shinybooster10
+    - shinybooster20
+    - shinybooster40
+    - shinybooster60
+    - bossbooster5
+    - bossbooster10
+    - bossbooster20
+    - bossbooster40
+    - bossbooster60
+    - expbooster5
+    - expbooster10
+    - expbooster20
+    - expbooster40
+    - expbooster60
+    - capturebooster5
+    - capturebooster10
+    - capturebooster20
+    - capturebooster40
+    - capturebooster60
+    ItemDisplay: '&f&lRate &6&lBoosters'
+    ItemID: pixelmon:red_shard
+    Lore:
+    - '&eBuy your boosters here'
+  CrateKeys:
+    EnabledItems:
+    - epickey
+    - epickey2
+    - epickey3
+    - epickey5
+    - epickey10
+    - mythickey
+    - mythickey2
+    - mythickey3
+    - mythickey5
+    - mythickey10
+    ItemDisplay: '&5&lCrate Keys'
+    ItemID: pixelmon:secret_key
+    Lore:
+    - '&eBuy your crate keys here!'
+  Items:
+    EnabledItems:
+    - flightboots
+    ItemDisplay: '&b&lSpecial Items'
+    ItemID: pixelmon:poketch_r
+    Lore:
+    - '&eBuy special items here!'
+  Kits:
+    EnabledItems:
+    - dailymasterballkit
+    - dailyrarecandykit
+    - dailyproteinnkit
+    - dailyballs
+    - dailycandies
+    - weeklywishes
+    - weeklybulk
+    - dailylures
+    - weeklybreeding
+    ItemDisplay: '&4&lKits'
+    ItemID: pixelmon:red_poke_bag
+    Lore:
+    - '&eBuy exclusive kits here!'
+  Permissions:
+    EnabledItems:
+    - permanentpokeheal
+    - permanentcomputer
+    - permanentenderchest
+    - permanentrepair
+    - permanentnickname
+    - additionalplayerwarps
+    ItemDisplay: '&9&lCommands'
+    ItemID: minecraft:book
+    Lore:
+    - '&eBuy command access here!'
+  PokeBuilder:
+    EnabledItems:
+    - pokebuildertokens250
+    - pokebuildertokens500
+    - pokebuildertokens1000
+    - pokebuildertokens2000
+    - pokebuildertokens4000
+    ItemDisplay: '&c&lPokeBuilder Tokens'
+    ItemID: pixelmon:pokemon_editor
+    Lore:
+    - '&eBuy your PokeBuilder Tokens here!'
+  Tags:
+    EnabledItems:
+    - Magma
+    - Aqua
+    - Rocket
+    - Galactic
+    - Plasma
+    - Champion
+    - Challenger
+    - Hunter
+    - Collector
+    - BugCatcher
+    - EBoy
+    - EGirl
+    - Completionist
+    - Maniac
+    - NoLife
+    - Gambler
+    - Nerd
+    - Sexy
+    - Fisherman
+    - Farmer
+    - Dwarf
+    - Architect
+    - Questhunter
+    - Survivalist
+    - PokeProfessor
+    - ShinyCollector
+    - PokeExplorer
+    - SpeedRunner
+    - PixelmonVeteran
+    ItemDisplay: '&b&lChat &6&lTags'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&eBuy exclusive Chat Prefixes here!'
+ShopItems:
+  Aqua:
+    Commands:
+    - lp user %pl% permission setdeluxetags.tag.aqua
+    Cost: 1000
+    ItemDisplay: '&8[&bAqua&8]'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&cObtained through the Gem Store or Events!'
+    PurchaseLimit: 1
+  Architect:
+    Commands:
+    - lp user %pl% permission setdeluxetags.tag.architect
+    Cost: 1000
+    ItemDisplay: '&8[&fArchitect&8]'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&cObtained through the Gem Store or Events!'
+    PurchaseLimit: 1
+  BugCatcher:
+    Commands:
+    - lp user %pl% permission setdeluxetags.tag.bugcatcher
+    Cost: 1000
+    ItemDisplay: '&8[&aBug Catcher&8]'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&cObtained through the Gem Store or Events!'
+    PurchaseLimit: 1
+  Challenger:
+    Commands:
+    - lp user %pl% permission setdeluxetags.tag.challenger
+    Cost: 1000
+    ItemDisplay: '&8[&bChallenger&8]'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&cObtained through the Gem Store or Events!'
+    PurchaseLimit: 1
+  Champion:
+    Commands:
+    - lp user %pl% permission setdeluxetags.tag.champion
+    Cost: 1000
+    ItemDisplay: '&8[&6Champion&8]'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&cObtained through the Gem Store or Events!'
+    PurchaseLimit: 1
+  Collector:
+    Commands:
+    - lp user %pl% permission setdeluxetags.tag.collector
+    Cost: 1000
+    ItemDisplay: '&8[&bCollector&8]'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&cObtained through the Gem Store or Events!'
+    PurchaseLimit: 1
+  Completionist:
+    Commands:
+    - lp user %pl% permission setdeluxetags.tag.completionist
+    Cost: 1000
+    ItemDisplay: '&8[&5Completionist&8]'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&cObtained through the Gem Store or Events!'
+    PurchaseLimit: 1
+  Dwarf:
+    Commands:
+    - lp user %pl% permission setdeluxetags.tag.dwarf
+    Cost: 1000
+    ItemDisplay: '&8[&7Dwarf&8]'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&cObtained through the Gem Store or Events!'
+    PurchaseLimit: 1
+  EBoy:
+    Commands:
+    - lp user %pl% permission setdeluxetags.tag.eboy
+    Cost: 1000
+    ItemDisplay: '&8[&bE-Boy&8]'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&cObtained through the Gem Store or Events!'
+    PurchaseLimit: 1
+  EGirl:
+    Commands:
+    - lp user %pl% permission setdeluxetags.tag.egirl
+    Cost: 1000
+    ItemDisplay: '&8[&dE-Girl&8]'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&cObtained through the Gem Store or Events!'
+    PurchaseLimit: 1
+  Example:
+    Commands:
+    - '%p%'
+    Cost: 1
+    ItemDisplay: '&e&lExample Item'
+    ItemID: minecraft:dirt
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  Farmer:
+    Commands:
+    - lp user %pl% permission setdeluxetags.tag.farmer
+    Cost: 1000
+    ItemDisplay: '&8[&2Farmer&8]'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&cObtained through the Gem Store or Events!'
+    PurchaseLimit: 1
+  Fisherman:
+    Commands:
+    - lp user %pl% permission setdeluxetags.tag.fisherman
+    Cost: 1000
+    ItemDisplay: '&8[&bFisherman&8]'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&cObtained through the Gem Store or Events!'
+    PurchaseLimit: 1
+  Galactic:
+    Commands:
+    - lp user %pl% permission setdeluxetags.tag.galactic
+    Cost: 1000
+    ItemDisplay: '&8[&9Galactic&8]'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&cObtained through the Gem Store or Events!'
+    PurchaseLimit: 1
+  Gambler:
+    Commands:
+    - lp user %pl% permission setdeluxetags.tag.gambler
+    Cost: 1000
+    ItemDisplay: '&8[&6Gambler$$&8]'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&cObtained through the Gem Store or Events!'
+    PurchaseLimit: 1
+  Hunter:
+    Commands:
+    - lp user %pl% permission setdeluxetags.tag.hunter
+    Cost: 1000
+    ItemDisplay: '&8[&4Hunter&8]'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&cObtained through the Gem Store or Events!'
+    PurchaseLimit: 1
+  Magma:
+    Commands:
+    - lp user %pl% permission setdeluxetags.tag.magma
+    Cost: 1000
+    ItemDisplay: '&8[&4Magma&8]'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&cObtained through the Gem Store or Events!'
+    PurchaseLimit: 1
+  Maniac:
+    Commands:
+    - lp user %pl% permission setdeluxetags.tag.maniac
+    Cost: 1000
+    ItemDisplay: '&8[&cManiac&8]'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&cObtained through the Gem Store or Events!'
+    PurchaseLimit: 1
+  Nerd:
+    Commands:
+    - lp user %pl% permission setdeluxetags.tag.nerd
+    Cost: 1000
+    ItemDisplay: '&8[&eNerd&8]'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&cObtained through the Gem Store or Events!'
+    PurchaseLimit: 1
+  NoLife:
+    Commands:
+    - lp user %pl% permission setdeluxetags.tag.nolife
+    Cost: 1000
+    ItemDisplay: '&8[&4No&6Life&8]'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&cObtained through the Gem Store or Events!'
+    PurchaseLimit: 1
+  PixelmonVeteran:
+    Commands:
+    - lp user %pl% permission setdeluxetags.tag.pixelmonveteran
+    Cost: 1000
+    ItemDisplay: '&8[&4Pixelmon&cVeteran&8]'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&cObtained through the Gem Store or Events!'
+    PurchaseLimit: 1
+  Plasma:
+    Commands:
+    - lp user %pl% permission setdeluxetags.tag.plasma
+    Cost: 1000
+    ItemDisplay: '&8[&bPlasma&8]'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&cObtained through the Gem Store or Events!'
+    PurchaseLimit: 1
+  PokeExplorer:
+    Commands:
+    - lp user %pl% permission setdeluxetags.tag.pokeexplorer
+    Cost: 1000
+    ItemDisplay: '&8[&ePoke&fExplorer&8]'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&cObtained through the Gem Store or Events!'
+    PurchaseLimit: 1
+  PokeProfessor:
+    Commands:
+    - lp user %pl% permission setdeluxetags.tag.pokeprofessor
+    Cost: 1000
+    ItemDisplay: '&8[&bPoke&dProfessor&8]'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&cObtained through the Gem Store or Events!'
+    PurchaseLimit: 1
+  Questhunter:
+    Commands:
+    - lp user %pl% permission setdeluxetags.tag.questhunter
+    Cost: 1000
+    ItemDisplay: '&8[&dQuest&5Hunter&8]'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&cObtained through the Gem Store or Events!'
+    PurchaseLimit: 1
+  Rocket:
+    Commands:
+    - lp user %pl% permission setdeluxetags.tag.rocket
+    Cost: 1000
+    ItemDisplay: '&8[&5Rocket&8]'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&cObtained through the Gem Store or Events!'
+    PurchaseLimit: 1
+  Sexy:
+    Commands:
+    - lp user %pl% permission setdeluxetags.tag.sexy
+    Cost: 1000
+    ItemDisplay: '&8[&9Sexy&8]'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&cObtained through the Gem Store or Events!'
+    PurchaseLimit: 1
+  ShinyCollector:
+    Commands:
+    - lp user %pl% permission setdeluxetags.tag.shinycollector
+    Cost: 1000
+    ItemDisplay: '&8[&6Shiny&aCollector&8]'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&cObtained through the Gem Store or Events!'
+    PurchaseLimit: 1
+  SpeedRunner:
+    Commands:
+    - lp user %pl% permission setdeluxetags.tag.speedrunner
+    Cost: 1000
+    ItemDisplay: '&8[&bSpeed&6Runner&8]'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&cObtained through the Gem Store or Events!'
+    PurchaseLimit: 1
+  Survivalist:
+    Commands:
+    - lp user %pl% permission setdeluxetags.tag.survivalist
+    Cost: 1000
+    ItemDisplay: '&8[&aSurvivalist&8]'
+    ItemID: minecraft:name_tag
+    Lore:
+    - '&cObtained through the Gem Store or Events!'
+    PurchaseLimit: 1
+  additionalplayerwarps:
+    Commands:
+    - playerwarps add %p% 1
+    Cost: 1000
+    ItemDisplay: '&b&l1 Additional Player Warp'
+    ItemID: pixelmon:camping_gear
+    Lore:
+    - '&eObtain 1 additional player warp which you can set!'
+    PurchaseLimit: 0
+  bossbooster10:
+    Commands:
+    - commanditem %p% bossbooster10 1
+    Cost: 190
+    ItemDisplay: '&1&l10 Minutes &a&lBoss &6&lBooster'
+    ItemID: pixelmon:green_shard
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  bossbooster20:
+    Commands:
+    - commanditem %p% bossbooster20 1
+    Cost: 360
+    ItemDisplay: '&1&l20 Minutes &a&lBoss &6&lBooster'
+    ItemID: pixelmon:green_shard
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  bossbooster40:
+    Commands:
+    - commanditem %p% bossbooster40 1
+    Cost: 680
+    ItemDisplay: '&1&l40 Minutes &a&lBoss &6&lBooster'
+    ItemID: pixelmon:green_shard
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  bossbooster5:
+    Commands:
+    - commanditem %p% bossbooster5 1
+    Cost: 100
+    ItemDisplay: '&1&l5 Minutes &a&lBoss &6&lBooster'
+    ItemID: pixelmon:green_shard
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  bossbooster60:
+    Commands:
+    - commanditem %p% bossbooster60 1
+    Cost: 1000
+    ItemDisplay: '&1&l60 Minutes &a&lBoss &6&lBooster'
+    ItemID: pixelmon:green_shard
+    Lore:
+    - '&e'
+    PurchaseLimit: 1000
+  capturebooster10:
+    Commands:
+    - commanditem %p% captureooster10 1
+    Cost: 190
+    ItemDisplay: '&1&l10 Minutes &4&lCapture &6&lBooster'
+    ItemID: pixelmon:red_shard
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  capturebooster20:
+    Commands:
+    - commanditem %p% captureooster20 1
+    Cost: 360
+    ItemDisplay: '&1&l20 Minutes &4&lCapture &6&lBooster'
+    ItemID: pixelmon:red_shard
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  capturebooster40:
+    Commands:
+    - commanditem %p% captureooster40 1
+    Cost: 680
+    ItemDisplay: '&1&l40 Minutes &4&lCapture &6&lBooster'
+    ItemID: pixelmon:red_shard
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  capturebooster5:
+    Commands:
+    - commanditem %p% captureooster5 1
+    Cost: 100
+    ItemDisplay: '&1&l5 Minutes &4&lCapture &6&lBooster'
+    ItemID: pixelmon:red_shard
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  capturebooster60:
+    Commands:
+    - commanditem %p% captureooster60 1
+    Cost: 1000
+    ItemDisplay: '&1&l60 Minutes &4&lCapture &6&lBooster'
+    ItemID: pixelmon:red_shard
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  dailyballs:
+    Commands:
+    - lp user %p% permission set pixelmonkits.kit.dailyballs
+    Cost: 2000
+    ItemDisplay: '&bDaily Poke Balls Kit'
+    ItemID: pixelmon:white_poke_bag
+    Lore:
+    - '&eBe able to claim daily Pokeballs kit'
+    - '&7 16x Ultra Balls'
+    - '&7 16x Quick Balls'
+    - '&7 32x Great Balls'
+    - '&7 64x Poke balls'
+    - '&7 1x Beast Balls'
+    - '&b&l &eevery &b24 hours using /kits!'
+    PurchaseLimit: 1
+  dailycandies:
+    Commands:
+    - lp user %p% permission set pixelmonkits.kit.dailycandies
+    Cost: 2000
+    ItemDisplay: '&bDaily Candies Kit'
+    ItemID: pixelmon:lime_poke_bag
+    Lore:
+    - '&eBe able to claim daily Candies'
+    - '&7 1x XL Candy'
+    - '&7 3x L candy'
+    - '&7 5x M Candy'
+    - '&7 7x S Candy'
+    - '&7 10x S Candy'
+    - '&b&l &eevery &b24 hours using /kits!'
+    PurchaseLimit: 1
+  dailylures:
+    Commands:
+    - lp user %p% permission set pixelmonkits.kit.dailylures
+    Cost: 2000
+    ItemDisplay: '&bDaily lures Kit'
+    ItemID: pixelmon:orange_poke_bag
+    Lore:
+    - '&eBe able to claim the daily lures kit'
+    - '&7 3x Random Strong Lure'
+    - '&7 3x Random Weak Lure'
+    - '&b&l &eevery &b24 hours using /kits!'
+    PurchaseLimit: 1
+  dailymasterballkit:
+    Commands:
+    - lp user %p% permission set pixelmonkits.kit.dailymasterball
+    Cost: 1000
+    ItemDisplay: '&bDaily &5&lMaster Ball &bKit'
+    ItemID: pixelmon:purple_poke_bag
+    Lore:
+    - '&eBe able to claim a &5&lMaster Ball &eevery &b24 hours using /kits!'
+    PurchaseLimit: 1
+  dailyproteinnkit:
+    Commands:
+    - lp user %p% permission set pixelmonkits.kit.dailyprotein
+    Cost: 1500
+    ItemDisplay: '&bDaily Protein Kit'
+    ItemID: pixelmon:black_poke_bag
+    Lore:
+    - '&eBe able to claim daily protein kit'
+    - '&7 10x HP UP'
+    - '&7 10x Protein'
+    - '&7 10x Iron'
+    - '&7 10x Calcium'
+    - '&7 10x Zinc'
+    - '&7 10x Carbos'
+    - '&7 1x Random Nature Mint'
+    - '&b&l &eevery &b24 hours using /kits!'
+    PurchaseLimit: 1
+  dailyrarecandykit:
+    Commands:
+    - lp user %p% permission set pixelmonkits.kit.rarecandy
+    Cost: 1000
+    ItemDisplay: '&bDaily Rare Candy Kit'
+    ItemID: pixelmon:blue_poke_bag
+    Lore:
+    - '&eBe able to claim &b10 &b&lRare Candies &eevery &b24 hours using /kits!'
+    PurchaseLimit: 1
+  epickey:
+    Commands:
+    - crates key %p% epic 1
+    Cost: 600
+    ItemDisplay: '&9&l1 &a&lEpic Crate Key'
+    ItemID: pixelmon:basement_key_silver
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  epickey10:
+    Commands:
+    - crates key %p% epic 10
+    Cost: 5000
+    ItemDisplay: '&9&l10 &a&lEpic Crate Keys'
+    ItemID: pixelmon:basement_key_silver
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  epickey2:
+    Commands:
+    - crates key %p% epic 2
+    Cost: 1175
+    ItemDisplay: '&9&l2 &a&lEpic Crate Keys'
+    ItemID: pixelmon:basement_key_silver
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  epickey3:
+    Commands:
+    - crates key %p% epic 3
+    Cost: 1730
+    ItemDisplay: '&9&l3 &a&lEpic Crate Keys'
+    ItemID: pixelmon:basement_key_silver
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  epickey5:
+    Commands:
+    - crates key %p% epic 5
+    Cost: 2760
+    ItemDisplay: '&9&l5 &a&lEpic Crate Keys'
+    ItemID: pixelmon:basement_key_silver
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  expbooster10:
+    Commands:
+    - commanditem %p% expbooster10 1
+    Cost: 190
+    ItemDisplay: '&1&l5 Minutes &b&lExp &6&lBooster'
+    ItemID: pixelmon:black_shard
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  expbooster20:
+    Commands:
+    - commanditem %p% expbooster20 1
+    Cost: 360
+    ItemDisplay: '&1&l5 Minutes &b&lExp &6&lBooster'
+    ItemID: pixelmon:black_shard
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  expbooster40:
+    Commands:
+    - commanditem %p% expbooster40 1
+    Cost: 680
+    ItemDisplay: '&1&l5 Minutes &b&lExp &6&lBooster'
+    ItemID: pixelmon:black_shard
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  expbooster5:
+    Commands:
+    - commanditem %p% expbooster5 1
+    Cost: 100
+    ItemDisplay: '&1&l5 Minutes &b&lExp &6&lBooster'
+    ItemID: pixelmon:black_shard
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  expbooster60:
+    Commands:
+    - commanditem %p% expbooster60 1
+    Cost: 1000
+    ItemDisplay: '&1&l5 Minutes &b&lExp &6&lBooster'
+    ItemID: pixelmon:black_shard
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  flightboots:
+    Commands:
+    - gormotticore flightboots %p%
+    Cost: 4000
+    ItemDisplay: '&d&lPair of Flight Boots'
+    ItemID: pixelmon:rocket_boots
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen1pack:
+    Commands:
+    - boosterpacks give %p% gen1 1
+    Cost: 200
+    ItemDisplay: '&9&l1 &b&lGen 1 Booster Pack'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen1pack10:
+    Commands:
+    - boosterpacks give %p% gen1 10
+    Cost: 2000
+    ItemDisplay: '&9&l10 &b&lGen 1 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen1pack2:
+    Commands:
+    - boosterpacks give %p% gen1 2
+    Cost: 400
+    ItemDisplay: '&9&l2 &b&lGen 1 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen1pack3:
+    Commands:
+    - boosterpacks give %p% gen1 3
+    Cost: 600
+    ItemDisplay: '&9&l3 &b&lGen 1 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen1pack5:
+    Commands:
+    - boosterpacks give %p% gen1 5
+    Cost: 1000
+    ItemDisplay: '&9&l5 &b&lGen 1 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen2pack:
+    Commands:
+    - boosterpacks give %p% gen2 1
+    Cost: 200
+    ItemDisplay: '&9&l1 &a&lGen 2 Booster Pack'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen2pack10:
+    Commands:
+    - boosterpacks give %p% gen2 10
+    Cost: 2000
+    ItemDisplay: '&9&l10 &a&lGen 2 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen2pack2:
+    Commands:
+    - boosterpacks give %p% gen2 2
+    Cost: 400
+    ItemDisplay: '&9&l2 &a&lGen 2 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen2pack3:
+    Commands:
+    - boosterpacks give %p% gen2 3
+    Cost: 600
+    ItemDisplay: '&9&l3 &a&lGen 2 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen2pack5:
+    Commands:
+    - boosterpacks give %p% gen2 5
+    Cost: 1000
+    ItemDisplay: '&9&l5 &a&lGen 2 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen3pack:
+    Commands:
+    - boosterpacks give %p% gen3 1
+    Cost: 200
+    ItemDisplay: '&9&l1 &2&lGen 3 Booster Pack'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen3pack10:
+    Commands:
+    - boosterpacks give %p% gen3 10
+    Cost: 2000
+    ItemDisplay: '&9&l10 &2&lGen 3 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen3pack2:
+    Commands:
+    - boosterpacks give %p% gen3 2
+    Cost: 400
+    ItemDisplay: '&9&l2 &2&lGen 3 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen3pack3:
+    Commands:
+    - boosterpacks give %p% gen3 3
+    Cost: 600
+    ItemDisplay: '&9&l3 &2&lGen 3 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen3pack5:
+    Commands:
+    - boosterpacks give %p% gen3 5
+    Cost: 1000
+    ItemDisplay: '&9&l5 &2&lGen 3 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen4pack:
+    Commands:
+    - boosterpacks give %p% gen4 1
+    Cost: 200
+    ItemDisplay: '&9&l1 &d&lGen 4 Booster Pack'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen4pack10:
+    Commands:
+    - boosterpacks give %p% gen4 10
+    Cost: 2000
+    ItemDisplay: '&9&l10 &d&lGen 4 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen4pack2:
+    Commands:
+    - boosterpacks give %p% gen4 2
+    Cost: 400
+    ItemDisplay: '&9&l2 &d&lGen 4 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen4pack3:
+    Commands:
+    - boosterpacks give %p% gen4 3
+    Cost: 600
+    ItemDisplay: '&9&l3 &d&lGen 4 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen4pack5:
+    Commands:
+    - boosterpacks give %p% gen4 5
+    Cost: 1000
+    ItemDisplay: '&9&l5 &d&lGen 4 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen5pack:
+    Commands:
+    - boosterpacks give %p% gen5 1
+    Cost: 200
+    ItemDisplay: '&9&l1 &7&lGen 5 Booster Pack'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen5pack10:
+    Commands:
+    - boosterpacks give %p% gen5 10
+    Cost: 2000
+    ItemDisplay: '&9&l10 &7&lGen 5 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen5pack2:
+    Commands:
+    - boosterpacks give %p% gen5 2
+    Cost: 400
+    ItemDisplay: '&9&l2 &7&lGen 5 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen5pack3:
+    Commands:
+    - boosterpacks give %p% gen5 3
+    Cost: 600
+    ItemDisplay: '&9&l3 &7&lGen 5 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen5pack5:
+    Commands:
+    - boosterpacks give %p% gen5 5
+    Cost: 1000
+    ItemDisplay: '&9&l5 &7&lGen 5 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen6pack:
+    Commands:
+    - boosterpacks give %p% gen6 1
+    Cost: 200
+    ItemDisplay: '&9&l1 &5&lGen 6 Booster Pack'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen6pack10:
+    Commands:
+    - boosterpacks give %p% gen6 10
+    Cost: 2000
+    ItemDisplay: '&9&l10 &5&lGen 6 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen6pack2:
+    Commands:
+    - boosterpacks give %p% gen6 2
+    Cost: 400
+    ItemDisplay: '&9&l2 &5&lGen 6 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen6pack3:
+    Commands:
+    - boosterpacks give %p% gen6 3
+    Cost: 600
+    ItemDisplay: '&9&l3 &5&lGen 6 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen6pack5:
+    Commands:
+    - boosterpacks give %p% gen6 5
+    Cost: 1000
+    ItemDisplay: '&9&l5 &5&lGen 6 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen7pack:
+    Commands:
+    - boosterpacks give %p% gen7 1
+    Cost: 200
+    ItemDisplay: '&9&l1 &e&lGen 7 Booster Pack'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen7pack10:
+    Commands:
+    - boosterpacks give %p% gen7 10
+    Cost: 2000
+    ItemDisplay: '&9&l10 &e&lGen 7 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen7pack2:
+    Commands:
+    - boosterpacks give %p% gen7 2
+    Cost: 400
+    ItemDisplay: '&9&l2 &e&lGen 7 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen7pack3:
+    Commands:
+    - boosterpacks give %p% gen7 3
+    Cost: 600
+    ItemDisplay: '&9&l3 &e&lGen 7 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen7pack5:
+    Commands:
+    - boosterpacks give %p% gen7 5
+    Cost: 1000
+    ItemDisplay: '&9&l5 &e&lGen 7 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen8pack:
+    Commands:
+    - boosterpacks give %p% gen8 1
+    Cost: 200
+    ItemDisplay: '&9&l1 &9&lGen 8 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen8pack10:
+    Commands:
+    - boosterpacks give %p% gen8 10
+    Cost: 2000
+    ItemDisplay: '&9&l10 &9&lGen 8 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen8pack2:
+    Commands:
+    - boosterpacks give %p% gen8 2
+    Cost: 400
+    ItemDisplay: '&9&l2 &9&lGen 8 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen8pack3:
+    Commands:
+    - boosterpacks give %p% gen8 3
+    Cost: 600
+    ItemDisplay: '&9&l3 &9&lGen 8 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen8pack5:
+    Commands:
+    - boosterpacks give %p% gen8 5
+    Cost: 1000
+    ItemDisplay: '&9&l5 &9&lGen 8 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen9pack:
+    Commands:
+    - boosterpacks give %p% gen9 1
+    Cost: 200
+    ItemDisplay: '&9&l1 &9&lGen 9 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen9pack10:
+    Commands:
+    - boosterpacks give %p% gen9 10
+    Cost: 2000
+    ItemDisplay: '&9&l10 &9&lGen 9 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen9pack2:
+    Commands:
+    - boosterpacks give %p% gen9 2
+    Cost: 400
+    ItemDisplay: '&9&l2 &9&lGen 9 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen9pack3:
+    Commands:
+    - boosterpacks give %p% gen9 3
+    Cost: 600
+    ItemDisplay: '&9&l3 &9&lGen 9 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  gen9pack5:
+    Commands:
+    - boosterpacks give %p% gen9 5
+    Cost: 1000
+    ItemDisplay: '&9&l5 &9&lGen 9 Booster Packs'
+    ItemID: tcg:deck
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  habooster10:
+    Commands:
+    - commanditem %p% habooster10 1
+    Cost: 190
+    ItemDisplay: '&1&l10 Minutes &5&lHidden Ability &6&lBooster'
+    ItemID: pixelmon:black_shard
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  habooster20:
+    Commands:
+    - commanditem %p% habooster20 1
+    Cost: 360
+    ItemDisplay: '&1&l20 Minutes &5&lHidden Ability &6&lBooster'
+    ItemID: pixelmon:black_shard
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  habooster40:
+    Commands:
+    - commanditem %p% habooster40 1
+    Cost: 680
+    ItemDisplay: '&1&l40 Minutes &5&lHidden Ability &6&lBooster'
+    ItemID: pixelmon:black_shard
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  habooster5:
+    Commands:
+    - commanditem %p% habooster5 1
+    Cost: 100
+    ItemDisplay: '&1&l5 Minutes &5&lHidden Ability &6&lBooster'
+    ItemID: pixelmon:black_shard
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  habooster60:
+    Commands:
+    - commanditem %p% habooster60 1
+    Cost: 1000
+    ItemDisplay: '&1&l60 Minutes &5&lHidden Ability &6&lBooster'
+    ItemID: pixelmon:black_shard
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  mythickey:
+    Commands:
+    - crates key %p% mythic 1
+    Cost: 2000
+    ItemDisplay: '&9&l1 &6&lMythic Crate Key'
+    ItemID: pixelmon:secret_key
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  mythickey10:
+    Commands:
+    - crates key %p% mythic 10
+    Cost: 16800
+    ItemDisplay: '&9&l10 &6&lMythic Crate Keys'
+    ItemID: pixelmon:secret_key
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  mythickey2:
+    Commands:
+    - crates key %p% mythic 2
+    Cost: 3920
+    ItemDisplay: '&9&l2 &6&lMythic Crate Keys'
+    ItemID: pixelmon:secret_key
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  mythickey3:
+    Commands:
+    - crates key %p% mythic 3
+    Cost: 5760
+    ItemDisplay: '&9&l3 &6&lMythic Crate Keys'
+    ItemID: pixelmon:secret_key
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  mythickey5:
+    Commands:
+    - crates key %p% mythic 5
+    Cost: 9200
+    ItemDisplay: '&9&l5 &6&lMythic Crate Keys'
+    ItemID: pixelmon:secret_key
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  permanentcomputer:
+    Commands:
+    - comp unlockpermanent %p%
+    Cost: 1500
+    ItemDisplay: '&a&lPermanent Computer'
+    ItemID: pixelmon:red_pc
+    Lore:
+    - '&7Use /comp without cooldown as much as you like'
+    PurchaseLimit: 1
+  permanentenderchest:
+    Commands:
+    - ec unlockpermanent %p%
+    Cost: 1500
+    ItemDisplay: '&a&lPermanent Ender Chest'
+    ItemID: minecraft:ender_chest
+    Lore:
+    - '&7Use /ec without cooldown as much as you like'
+    PurchaseLimit: 1
+  permanentnickname:
+    Commands:
+    - lp user %p% parent add nickname
+    Cost: 1500
+    ItemDisplay: '&6&lNick Name'
+    ItemID: minecraft:enchanted_book
+    Lore:
+    - '&7Use /nick <name> to set up a nickname in-game with different colours!'
+    PurchaseLimit: 1
+  permanentpokeheal:
+    Commands:
+    - pheal unlockpermanent %p%
+    Cost: 1500
+    ItemDisplay: '&a&lPermanent Poke Heal'
+    ItemID: pixelmon:healer
+    Lore:
+    - '&7Use /pheal without cooldown as much as you like'
+    PurchaseLimit: 1
+  permanentrepair:
+    Commands:
+    - repair unlockpermanent %p%
+    Cost: 1500
+    ItemDisplay: '&a&lPermanent Repair'
+    ItemID: minecraft:experience_bottle
+    Lore:
+    - '&7Use /repair without cooldown as much as you like'
+    PurchaseLimit: 1
+  pokebuildertokens1000:
+    Commands:
+    - tokens %p% add 1000
+    Cost: 800
+    ItemDisplay: '&9&l1000 &c&lPoke Builder Tokens'
+    ItemID: pixelmon:pokemon_editor
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  pokebuildertokens2000:
+    Commands:
+    - tokens %p% add 2000
+    Cost: 1200
+    ItemDisplay: '&9&l2000 &c&lPoke Builder Tokens'
+    ItemID: pixelmon:pokemon_editor
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  pokebuildertokens250:
+    Commands:
+    - tokens %p% add 250
+    Cost: 200
+    ItemDisplay: '&9&l250 &c&lPoke Builder Tokens'
+    ItemID: pixelmon:pokemon_editor
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  pokebuildertokens4000:
+    Commands:
+    - tokens %p% add 4000
+    Cost: 1600
+    ItemDisplay: '&9&l4000 &c&lPoke Builder Tokens'
+    ItemID: pixelmon:pokemon_editor
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  pokebuildertokens500:
+    Commands:
+    - tokens %p% add 500
+    Cost: 400
+    ItemDisplay: '&9&l500 &c&lPoke Builder Tokens'
+    ItemID: pixelmon:pokemon_editor
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  shinybooster10:
+    Commands:
+    - commanditem %p% shinybooster10 1
+    Cost: 190
+    ItemDisplay: '&1&l10 Minutes &e&lShiny &6&lBooster'
+    ItemID: pixelmon:yellow_shard
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  shinybooster20:
+    Commands:
+    - commanditem %p% shinybooster20 1
+    Cost: 360
+    ItemDisplay: '&1&l20 Minutes &e&lShiny &6&lBooster'
+    ItemID: pixelmon:yellow_shard
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  shinybooster40:
+    Commands:
+    - commanditem %p% shinybooster40 1
+    Cost: 680
+    ItemDisplay: '&1&l40 Minutes &e&lShiny &6&lBooster'
+    ItemID: pixelmon:yellow_shard
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  shinybooster5:
+    Commands:
+    - commanditem %p% shinybooster5 1
+    Cost: 100
+    ItemDisplay: '&1&l5 Minutes &e&lShiny &6&lBooster'
+    ItemID: pixelmon:yellow_shard
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  shinybooster60:
+    Commands:
+    - commanditem %p% shinybooster60 1
+    Cost: 1000
+    ItemDisplay: '&1&l60 Minutes &e&lShiny &6&lBooster'
+    ItemID: pixelmon:yellow_shard
+    Lore:
+    - '&e'
+    PurchaseLimit: 0
+  weeklybreeding:
+    Commands:
+    - lp user %p% permission set pixelmonkits.kit.weeklybreedingpaid
+    Cost: 3000
+    ItemDisplay: '&bWeekly breeding Kit'
+    ItemID: pixelmon:pink_poke_bag
+    Lore:
+    - '&eBe able to claim weekly breeding kit'
+    - '&73x Golden Hour Glass'
+    - '&75x Silver Hour Glass'
+    - '&810x Copper Hour Glass'
+    - 1x Destiny Knot
+    - '&7&b&l &eevery &bweek using /kits!'
+    PurchaseLimit: 1
+  weeklybulk:
+    Commands:
+    - lp user %p% permission set pixelmonkits.kit.weeklybulk
+    Cost: 3000
+    ItemDisplay: '&bWeekly Bulk Kit'
+    ItemID: pixelmon:cyan_poke_bag
+    Lore:
+    - '&eBe able to claim weekly bulk kit'
+    - '&7 1x Random Mega Stone'
+    - '&7 1x Random Arceus Plate'
+    - '&7 1x Random Z-Crystal'
+    - '&b&l &eevery &bweek using /kits!'
+    PurchaseLimit: 1
+  weeklywishes:
+    Commands:
+    - lp user %p% permission set pixelmonkits.kit.weeklywishes
+    Cost: 1600
+    ItemDisplay: '&bWeekly wishes Kit'
+    ItemID: pixelmon:yellow_poke_bag
+    Lore:
+    - '&eBe able to claim weekly wishes kit'
+    - '&7 1x Waterdudes Wishing Piece'
+    - '&7 5X Wishes piece'
+    - '&b&l &eevery &bweek using /kits!'
+    PurchaseLimit: 1

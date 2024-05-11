@@ -1,0 +1,265 @@
+# DeluxeTags version: 1.8.3-DEV-19 Main Configuration
+# 
+# Create your tags using the following format:
+# 
+# deluxetags:
+#   VIP: 
+#     order: 1
+#     tag: '&7[&eVIP&7]'
+#     description: 'This tag is awarded by getting VIP'
+# 
+# Placeholders for your chat plugin that supports PlaceholderAPI (Including DeluxeChat)
+# 
+# %deluxetags_identifier% - display the players active tag identifier
+# %deluxetags_tag% - display the players active tag
+# %deluxetags_description% - display the players active tag description
+# %deluxetags_amount% - display the amount of tags a player has access to
+# 
+# Placeholders for your essentials/chat handling formats config:
+# 
+# {deluxetags_identifier} - display the players active tag identifier
+# {deluxetags_tag} - display the players active tag
+# {deluxetags_description} - display the players active tag description
+# {deluxetags_amount} - display the amount of tags a player has access to
+force_tags: false
+check_updates: true
+legacy_hex: false
+papi_chat: true
+format_chat:
+  enabled: true
+  format: '{deluxetags_tag} <%1$s> %2$s'
+load_tag_on_join: true
+gui:
+  name: '&6Available tags&f: &6%deluxetags_amount%'
+  tag_select_item:
+    material: NAME_TAG
+    data: 0
+    displayname: '&6Tag&f: &6%deluxetags_identifier%'
+    lore:
+    - '%deluxetags_tag%'
+    - '%deluxetags_description%'
+  tag_visible_item:
+    material: NAME_TAG
+    data: 0
+    displayname: '&6Tag&f: &6%deluxetags_identifier%'
+    lore:
+    - '%deluxetags_tag%'
+    - '%deluxetags_description%'
+    - '&7You can see this tag but you can''t select it!'
+  divider_item:
+    material: BLACK_STAINED_GLASS_PANE
+    data: 0
+    displayname: ''
+    lore: []
+  has_tag_item:
+    material: PLAYER_HEAD
+    data: 0
+    displayname: '&eCurrent tag&f: &6%deluxetags_identifier%'
+    lore:
+    - '%deluxetags_tag%'
+    - Click to remove your current tag
+  no_tag_item:
+    material: PLAYER_HEAD
+    data: 0
+    displayname: '&cYou don''t have a tag set!'
+    lore:
+    - '&7Click a tag above to select one!'
+  exit_item:
+    material: IRON_DOOR
+    data: 0
+    displayname: '&cClick to exit'
+    lore:
+    - '&7Exit the tags menu'
+  next_page:
+    material: PAPER
+    data: 0
+    displayname: '&6Next page: %page%'
+    lore:
+    - '&7Move to the next page'
+  previous_page:
+    material: PAPER
+    data: 0
+    displayname: '&6Previous page: %page%'
+    lore:
+    - '&7Move to the previous page'
+deluxetags:
+  Novice:
+    order: 1
+    tag: '&8[&bNovice&8]'
+    description: '&cAwarded for obtaining the Novice Dex Rank!'
+    permission: deluxetags.tag.novice
+  Adventurer:
+    order: 2
+    tag: '&8[&bAdventurer&8]'
+    description: '&cAwarded for obtaining the Adventurer Dex Rank!'
+    permission: deluxetags.tag.adventurer
+  Breeder:
+    order: 3
+    tag: '&8[&bBreeder&8]'
+    description: '&cAwarded for obtaining the Breeder Dex Rank!'
+    permission: deluxetags.tag.breeder
+  Veteran:
+    order: 4
+    tag: '&8[&bVeteran&8]'
+    description: '&cAwarded for obtaining the Veteran Dex Rank!'
+    permission: deluxetags.tag.veteran
+  Elite:
+    order: 5
+    tag: '&8[&bElite&8]'
+    description: '&cAwarded for obtaining the Elite Dex Rank!'
+    permission: deluxetags.tag.elite
+  Legendary:
+    order: 6
+    tag: '&8[&bLegendary&8]'
+    description: '&cAwarded for obtaining the Legendary Dex Rank!'
+    permission: deluxetags.tag.legendary
+  Master:
+    order: 7
+    tag: '&8[&bMaster&8]'
+    description: '&cAwarded for obtaining the Pokedex Master Dex Rank!'
+    permission: deluxetags.tag.master
+  Magma:
+    order: 8
+    tag: '&8[&4Magma&8]'
+    description: '&cObtained through the Gem Store or Events!'
+    permission: deluxetags.tag.magma
+  Aqua:
+    order: 9
+    tag: '&8[&bAqua&8]'
+    description: '&cObtained through the Gem Store or Events!'
+    permission: deluxetags.tag.aqua
+  Rocket:
+    order: 10
+    tag: '&8[&5Rocket&8]'
+    description: '&cObtained through the Gem Store or Events!'
+    permission: deluxetags.tag.rocket
+  Galactic:
+    order: 11
+    tag: '&8[&9Galactic&8]'
+    description: '&cObtained through the Gem Store or Events!'
+    permission: deluxetags.tag.galactic
+  Plasma:
+    order: 12
+    tag: '&8[&bPlasma&8]'
+    description: '&cObtained through the Gem Store or Events!'
+    permission: deluxetags.tag.plasma
+  Champion:
+    order: 13
+    tag: '&8[&6Champion&8]'
+    description: '&cObtained through the Gem Store or Events!'
+    permission: deluxetags.tag.champion
+  Challenger:
+    order: 14
+    tag: '&8[&bChallenger&8]'
+    description: '&cObtained through the Gem Store or Events!'
+    permission: deluxetags.tag.challenger
+  Hunter:
+    order: 15
+    tag: '&8[&4Hunter&8]'
+    description: '&cObtained through the Gem Store or Events!'
+    permission: deluxetags.tag.hunter
+  Collector:
+    order: 16
+    tag: '&8[&bCollector&8]'
+    description: '&cObtained through the Gem Store or Events!'
+    permission: deluxetags.tag.collector
+  BugCatcher:
+    order: 17
+    tag: '&8[&aBug Catcher&8]'
+    description: '&cObtained through the Gem Store or Events!'
+    permission: deluxetags.tag.bugcatcher
+  EBoy:
+    order: 18
+    tag: '&8[&bE-Boy&8]'
+    description: '&cObtained through the Gem Store or Events!'
+    permission: deluxetags.tag.eboy
+  EGirl:
+    order: 19
+    tag: '&8[&dE-Girl&8]'
+    description: '&cObtained through the Gem Store or Events!'
+    permission: deluxetags.tag.egirl
+  Completionist:
+    order: 20
+    tag: '&8[&5Completionist&8]'
+    description: '&cObtained through the Gem Store or Events!'
+    permission: deluxetags.tag.completionist
+  Maniac:
+    order: 21
+    tag: '&8[&cManiac&8]'
+    description: '&cObtained through the Gem Store or Events!'
+    permission: deluxetags.tag.maniac
+  NoLife:
+    order: 22
+    tag: '&8[&4No&6Life&8]'
+    description: '&cObtained through the Gem Store or Events!'
+    permission: deluxetags.tag.nolife
+  Gambler:
+    order: 23
+    tag: '&8[&6Gambler$$&8]'
+    description: '&cObtained through the Gem Store or Events!'
+    permission: deluxetags.tag.gambler
+  Nerd:
+    order: 24
+    tag: '&8[&eNerd&8]'
+    description: '&cObtained through the Gem Store or Events!'
+    permission: deluxetags.tag.nerd
+  Sexy:
+    order: 25
+    tag: '&8[&9Sexy&8]'
+    description: '&cObtained through the Gem Store or Events!'
+    permission: deluxetags.tag.sexy
+  Fisherman:
+    order: 26
+    tag: '&8[&bFisherman&8]'
+    description: '&cObtained through the Gem Store or Events!'
+    permission: deluxetags.tag.fisherman
+  Farmer:
+    order: 27
+    tag: '&8[&2Farmer&8]'
+    description: '&cObtained through the Gem Store or Events!'
+    permission: deluxetags.tag.farmer
+  Dwarf:
+    order: 28
+    tag: '&8[&7Dwarf&8]'
+    description: '&cObtained through the Gem Store or Events!'
+    permission: deluxetags.tag.dwarf
+  Architect:
+    order: 29
+    tag: '&8[&fArchitect&8]'
+    description: '&cObtained through the Gem Store or Events!'
+    permission: deluxetags.tag.architect
+  Questhunter:
+    order: 31
+    tag: '&8[&dQuest&5Hunter&8]'
+    description: '&cObtained through the Gem Store or Events!'
+    permission: deluxetags.tag.questhunter
+  Survivalist:
+    order: 32
+    tag: '&8[&aSurvivalist&8]'
+    description: '&cObtained through the Gem Store or Events!'
+    permission: deluxetags.tag.survivalist
+  PokeProfessor:
+    order: 33
+    tag: '&8[&bPoke&dProfessor&8]'
+    description: '&cObtained through the Gem Store or Events!'
+    permission: deluxetags.tag.pokeprofessor
+  ShinyCollector:
+    order: 34
+    tag: '&8[&6Shiny&aCollector&8]'
+    description: '&cObtained through the Gem Store or Events!'
+    permission: deluxetags.tag.shinycollector
+  PokeExplorer:
+    order: 35
+    tag: '&8[&ePoke&fExplorer&8]'
+    description: '&cObtained through the Gem Store or Events!'
+    permission: deluxetags.tag.pokeexplorer
+  SpeedRunner:
+    order: 36
+    tag: '&8[&bSpeed&6Runner&8]'
+    description: '&cObtained through the Gem Store or Events!'
+    permission: deluxetags.tag.speedrunner
+  PixelmonVeteran:
+    order: 37
+    tag: '&8[&4Pixelmon&cVeteran&8]'
+    description: '&cObtained through the Gem Store or Events!'
+    permission: deluxetags.tag.pixelmonveteran
