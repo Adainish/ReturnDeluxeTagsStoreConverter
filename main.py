@@ -1,11 +1,15 @@
 import yaml
 
+""""
+This python script is used to generate entries for each ptag in the config.yml file 
+and adds them to the shop.yaml file to save time and work
+"""
 # Load the config.yml file
 with open('files/config.yml', 'r') as file:
     config_data = yaml.safe_load(file)
 
 # Load the shop.yaml file
-with open('files/shop.yaml', 'r') as file:
+with open('files/shop.yaml', 'r', encoding='utf-8') as file:
     shop_data = yaml.safe_load(file)
 
 # Extract the tags from the config.yml file
@@ -38,5 +42,5 @@ for tag, details in tags.items():
     shop_data['ShopCategories']['Tags']['EnabledItems'].append(tag)
 
 # Save the updated shop.yaml file
-with open('files/shop.yaml', 'w') as file:
+with open('files/shop.yaml', 'w', encoding='utf-8') as file:
     yaml.safe_dump(shop_data, file)
